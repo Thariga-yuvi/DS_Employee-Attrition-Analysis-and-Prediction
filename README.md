@@ -45,6 +45,13 @@ A dynamic prediction form for HR teams to simulate different employee profiles.
 ### 📈 4. Employee Insights
 - View **Top 10 High-Income Employees**
 - Analyze **Attrition by Department** (via pie or donut charts)
+- 
+| Metric          | Observation                     |
+| --------------- | ------------------------------- |
+| Attrition Rate  | 16.1% employees left            |
+| Top Factor      | Overtime frequency              |
+| High-Risk Group | Employees < 2 years at company  |
+| Positive Signal | High satisfaction, low overtime |
 
 ---
 
@@ -86,12 +93,12 @@ pip install -r requirements.txt
 streamlit run app.py
 
 🗂️ Folder Structure
-| Metric          | Observation                     |
-| --------------- | ------------------------------- |
-| Attrition Rate  | 16.1% employees left            |
-| Top Factor      | Overtime frequency              |
-| High-Risk Group | Employees < 2 years at company  |
-| Positive Signal | High satisfaction, low overtime |
+employee-insights-dashboard/
+│
+├── app.py                # Main Streamlit app
+├── data/                 # Dataset folder (e.g., employees.csv)
+├── requirements.txt      # List of dependencies
+└── README.md             # Project documentation
 
 🪪 License
 This project is licensed under the MIT License — you’re free to use and modify it for educational or commercial purposes.
